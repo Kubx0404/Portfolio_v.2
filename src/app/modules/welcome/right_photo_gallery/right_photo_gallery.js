@@ -9,10 +9,18 @@ import image4 from "public/Img0608_.jpg";
 export default function right_photo_gallery() {
   return (
     <div className={styles.main}>
-      <Image className={styles.img_top_left} src={image1} alt="Photo1" />
-      <Image className={styles.img_top_right} src={image4} alt="Photo4" />
-      <Image className={styles.img_down_left} src={image2} alt="Photo2" />
-      <Image className={styles.img_down_right} src={image3} alt="Photo3" />
+      <div className={styles.container_top_left}>
+        <Image className={styles.image} src={image1} alt="Photo1" />
+      </div>
+      <div className={styles.container_top_right}>
+        <Image className={styles.image} src={image4} alt="Photo4" />
+      </div>
+      <div className={styles.container_down_left}>
+        <Image className={styles.image} src={image2} alt="Photo2" />
+      </div>
+      <div className={styles.container_down_right}>
+        <Image className={styles.image} src={image3} alt="Photo3" />
+      </div>
       {/* <div className={styles.img_top_left}></div>
       <div className={styles.img_top_right}></div>
       <div className={styles.img_down_left}></div>
