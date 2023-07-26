@@ -11,11 +11,13 @@ export default function left_nav_bar() {
       <p className={styles.menu}>O MNIE</p>
       <br />
       <br />
+
       <p className={styles.menu}>KRAJOBRAZY</p>
       <hr className={styles.menuLine}></hr>
       <p className={styles.menu}>STREET PHOTO</p>
       <br />
       <br />
+
       <p className={styles.menu}>CENNIK</p>
       <hr className={styles.menuLine}></hr>
       <p className={styles.menu}>KONTAKT</p>
