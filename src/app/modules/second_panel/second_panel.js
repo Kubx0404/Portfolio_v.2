@@ -5,10 +5,10 @@ import Image from "next/image";
 import "@fontsource/caveat";
 import "@fontsource/caveat/400.css";
 
-export default function right_photo_gallery() {
+export default function second_panel() {
   return (
     <div className={styles.main}>
-      <p className={styles.quote}>
+      <p className={`${styles.quote} smaller_shadow`}>
         „Przykazanie dla fotografów i innych twórców: nie pożyczaj duszy od
         innego artysty, choćby nie wiem jak ci się spodobała, ponieważ w tym
         samym momencie stracisz swoją duszę, która jest źródłem wyjątkowości

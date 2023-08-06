@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 3em;
-  padding: 3em;
+  /* padding: 3em; */
   padding-top: 0;
 }
 p.menu {
@@ -11,6 +11,9 @@ p.menu {
   margin: 0.5em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
 }
 .menuLine {
   width: 10em;
@@ -23,6 +26,7 @@ p.menu {
   width: 30em;
   height: auto;
 }
+
 @media only screen and (max-width: 576px) {
   .logo {
     width: 80%;
