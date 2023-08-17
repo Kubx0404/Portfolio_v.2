@@ -30,6 +30,10 @@
   width: 30%;
   min-width: 350px;
   padding-top: 0;
+  cursor: pointer;
+}
+.photo_container:hover {
+  transform: scale(1.03);
 }
 .gallery_cover_photo {
   width: 100%;
@@ -64,6 +68,7 @@
 @media only screen and (max-width: 1200px) {
   .main {
     width: 95%;
+    padding-top: 5rem;
   }
 }
 

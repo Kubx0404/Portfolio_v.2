@@ -6,6 +6,12 @@ import Welcome from "./modules/welcome/welcome";
 import Second_panel from "./modules/second_panel/second_panel";
 import Third_panel from "./modules/third_panel/third_panel";
 import Form_panel from "./modules/form_panel/form_panel";
+import Footer from "./modules/footer/footer";
+import Test from "./modules/test/test";
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+// import { useEffect, useRef } from "react";
 
 export default function Home() {
   return (
@@ -14,6 +20,7 @@ export default function Home() {
       <Second_panel />
       <Third_panel />
       <Form_panel />
+      <Footer />
     </main>
   );
 }

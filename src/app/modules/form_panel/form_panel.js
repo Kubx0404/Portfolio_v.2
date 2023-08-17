@@ -32,7 +32,7 @@ export default function Home() {
         />
 
         <textarea
-          className={`${styles.remove_resize} ${styles.input_text}`}
+          className={`${styles.remove_resize} ${styles.input_text} ${styles.block}`}
           placeholder="Wiadomość"
           rows={5}
         ></textarea>
@@ -44,7 +44,9 @@ export default function Home() {
           name="last"
           placeholder="Numer telefonu"
         />
-        <button type="submit">Zatwierdź</button>
+        <button type="submit" className={styles.submit}>
+          Zatwierdź
+        </button>
       </form>
     </main>
   );
