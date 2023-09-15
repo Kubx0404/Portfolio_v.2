@@ -8,6 +8,8 @@ import Third_panel from "./modules/third_panel/third_panel";
 import Form_panel from "./modules/form_panel/form_panel";
 import Footer from "./modules/footer/footer";
 import Test from "./modules/test/test";
+import Gallery from "./modules/gallery/gallery";
+import Header from "./modules/header/header";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -20,7 +22,9 @@ export default function Home() {
       <Second_panel />
       <Third_panel />
       <Form_panel />
-      <Footer />
+      {/* <Footer /> */}
+      {/* <Gallery /> */}
+      <Header />
     </main>
   );
 }
