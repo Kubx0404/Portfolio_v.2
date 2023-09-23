@@ -1,7 +1,33 @@
 import styles from "./header.module.css";
 import "@fontsource/caveat";
 import "@fontsource/caveat/400.css";
+import Image from "next/image";
+import logo from "public/logo_madej.png";
 
 export default function header() {
-  return <div className={styles.main}></div>;
+  return (
+    <div className={styles.main}>
+      <header className={styles.header}>
+        <svg
+          id="menu_icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className={styles.menu_icon}
+        >
+          <line x1="8" y1="6" x2="21" y2="6"></line>
+          <line x1="8" y1="12" x2="21" y2="12"></line>
+          <line x1="8" y1="18" x2="21" y2="18"></line>
+          <line x1="3" y1="6" x2="3.01" y2="6"></line>
+          <line x1="3" y1="12" x2="3.01" y2="12"></line>
+          <line x1="3" y1="18" x2="3.01" y2="18"></line>
+        </svg>
+        Madej.art Photography
+      </header>
+    </div>
+  );
 }

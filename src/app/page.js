@@ -18,10 +18,10 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Welcome />
-      <Second_panel />
-      <Third_panel />
-      <Form_panel />
+      {/* <Welcome /> */}
+      {/* <Second_panel /> */}
+      {/* <Third_panel /> */}
+      {/* <Form_panel /> */}
       {/* <Footer /> */}
       {/* <Gallery /> */}
       <Header />
