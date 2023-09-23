@@ -3,7 +3,7 @@ import styles from "./form_panel.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} id="contact">
       <form className={styles.form} action="/send-data-here" method="post">
         <h1 className={styles.title}>Kontakt</h1>
 

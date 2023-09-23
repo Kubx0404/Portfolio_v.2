@@ -23,8 +23,8 @@ export default function Home() {
       {/* <Third_panel /> */}
       {/* <Form_panel /> */}
       {/* <Footer /> */}
-      {/* <Gallery /> */}
-      <Header />
+      <Gallery />
+      {/* <Header /> */}
     </main>
   );
 }

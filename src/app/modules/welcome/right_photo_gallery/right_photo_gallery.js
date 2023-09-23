@@ -1,10 +1,9 @@
-import logo from "public/logo_madej.png";
 import styles from "./right_photo_gallery.module.css";
 import Image from "next/image";
-import image1 from "public/Img0511_.jpg";
-import image2 from "public/Img0605_.jpg";
-import image3 from "public/Img0607_.jpg";
-import image4 from "public/Img0608_.jpg";
+import image1 from "../../../../../public/photos/Img0511_.jpg";
+import image2 from "../../../../../public/photos/Img0605_.jpg";
+import image3 from "../../../../../public/photos/Img0607_.jpg";
+import image4 from "../../../../../public/photos/Img0608_.jpg";
 
 export default function right_photo_gallery() {
   return (

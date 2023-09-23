@@ -19,6 +19,9 @@
   height: 55%;
   background-color: #202020;
   margin: 1rem;
-  justify-self: flex-start;
+  position: absolute;
+  left: 0;
+  height: 3rem;
+  margin: 2rem;
   /* padding: 1rem; */
 }

@@ -5,16 +5,16 @@ import Image from "next/image";
 import "@fontsource/montserrat";
 import "@fontsource/montserrat/400.css";
 import "@fontsource/montserrat/400-italic.css";
-import image1 from "public/Img0605.jpg";
-import image3 from "public/Img0300.jpg";
-import image2 from "public/Img0505.jpg";
-import image4 from "public/Img0407.jpg";
-import image5 from "public/Img0608.jpg";
-import image6 from "public/Img0610.jpg";
+import image1 from "../../../../public/photos/Img0605.jpg";
+import image3 from "../../../../public/photos/Img0300.jpg";
+import image2 from "../../../../public/photos/Img0505.jpg";
+import image4 from "../../../../public/photos/Img0407.jpg";
+import image5 from "../../../../public/photos/Img0608.jpg";
+import image6 from "../../../../public/photos/Img0610.jpg";
 
 export default function third_panel() {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="galleries">
       <h1 className={`${styles.montserrat} shadow ${styles.title}`}>
         Galleries
       </h1>
