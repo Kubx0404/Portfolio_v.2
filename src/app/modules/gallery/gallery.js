@@ -45,7 +45,13 @@ export default function gallery() {
         height={400}
       /> */}
 
-      {photos.photos.map((el) => {
+      <div id="container" class="disable-select">
+        <section id="s1"></section>
+        <section id="s2"></section>
+        <section id="s3"></section>
+      </div>
+
+      {/* {photos.photos.map((el) => {
         if (el.includes("_")) {
           return;
         }
@@ -59,7 +65,7 @@ export default function gallery() {
             height={300}
           />
         );
-      })}
+      })} */}
     </div>
   );
 }
